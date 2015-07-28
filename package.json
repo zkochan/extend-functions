@@ -1,0 +1,37 @@
+{
+  "name": "extend-functions",
+  "version": "0.1.0",
+  "description": "Extends a target objects with functions from the source object, keeping the context of the source object.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkochan/extend-functions.git"
+  },
+  "keywords": [
+    "extend",
+    "function"
+  ],
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "zoltan.kochan@gmail.com",
+    "url": "http://kochan.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zkochan/extend-functions/issues"
+  },
+  "homepage": "https://github.com/zkochan/extend-functions#readme",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "dependencies": {
+    "bind-ponyfill": "^0.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  }
+}
